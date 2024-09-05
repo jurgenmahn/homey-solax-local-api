@@ -45,8 +45,11 @@
       "battery_mode"
     ],
     "energy": {
-      "batteries": ["OTHER"]
-    },    
+      "batteries": ["OTHER"],
+      "cumulative": true,
+      "cumulativeImportedCapability": "meter_power.consumption",
+      "cumulativeExportedCapability": "meter_power.total"
+    },
     "platforms": [
       "local"
     ],
