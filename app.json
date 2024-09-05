@@ -5,7 +5,7 @@
   "compatibility": ">=5.0.0",
   "sdk": 3,
   "name": {
-    "en": "Solax Local API"
+    "en": "Solax Inverter Local API"
   },
   "description": {
     "en": "Connect your Solax inverter with local API (WiFi or LAN module)"
@@ -70,6 +70,11 @@
         "inverter_mode",
         "battery_mode"
       ],
+      "energy": {
+        "batteries": [
+          "OTHER"
+        ]
+      },
       "platforms": [
         "local"
       ],
@@ -77,8 +82,8 @@
         "lan"
       ],
       "images": {
-        "large": "/drivers/inverter/assets/images/large.png",
-        "small": "/drivers/inverter/assets/images/small.png"
+        "large": "/drivers/SolaxInverter/assets/images/large.png",
+        "small": "/drivers/SolaxInverter/assets/images/small.png"
       },
       "pair": [
         {
