@@ -1,0 +1,25 @@
+{
+  "id": "com.mahn.solax-local-wifi",
+  "version": "1.0.0",
+  "compatibility": ">=5.0.0",
+  "sdk": 3,
+  "name": {
+    "en": "Solax Local API"
+  },
+  "description": {
+    "en": "Connect your Solax inverter with local API (WiFi or LAN module)"
+  },
+  "category": [
+    "energy"
+  ],
+  "permissions": [],
+  "brandColor": "#4CAF50",
+  "images": {
+    "large": "/assets/images/large.png",
+    "small": "/assets/images/small.png"
+  },
+  "author": {
+    "name": "Jurgen Mahn",
+    "email": "jurgenm@mahn.it"
+  }
+}

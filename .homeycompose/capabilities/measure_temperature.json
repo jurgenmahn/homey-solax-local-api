@@ -1,0 +1,16 @@
+{
+  "type": "number",
+  "title": {
+    "en": "Temperature"
+  },
+  "insights": false,
+"visible": false,
+  "uiComponent": "sensor",
+  "icon": "/assets/capability_icons/measure_temperature.svg",
+  "units": {
+    "en": "°C"
+  },
+  "decimals": 1,
+  "getable": true,
+  "setable": false
+}

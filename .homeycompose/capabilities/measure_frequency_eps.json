@@ -1,0 +1,16 @@
+{
+  "type": "number",
+  "title": {
+    "en": "EPS Frequency"
+  },
+  "insights": false,
+"visible": false,
+  "uiComponent": "sensor",
+  "icon": "/assets/capability_icons/measure_frequency_eps.svg",
+  "units": {
+    "en": "Hz"
+  },
+  "decimals": 2,
+  "getable": true,
+  "setable": false
+}

@@ -1,0 +1,16 @@
+{
+  "type": "number",
+  "title": {
+    "en": "PV Energy"
+  },
+  "insights": false,
+"visible": false,
+  "uiComponent": "sensor",
+  "icon": "/assets/capability_icons/meter_power_pv.svg",
+  "units": {
+    "en": "kWh"
+  },
+  "decimals": 1,
+  "getable": true,
+  "setable": false
+}

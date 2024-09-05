@@ -1,0 +1,16 @@
+{
+  "type": "number",
+  "title": {
+    "en": "EPS Current"
+  },
+  "insights": false,
+"visible": false,
+  "uiComponent": "sensor",
+  "icon": "/assets/capability_icons/measure_current_eps.svg",
+  "units": {
+    "en": "A"
+  },
+  "decimals": 1,
+  "getable": true,
+  "setable": false
+}

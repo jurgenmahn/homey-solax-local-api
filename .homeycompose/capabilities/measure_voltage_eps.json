@@ -1,0 +1,16 @@
+{
+  "type": "number",
+  "title": {
+    "en": "EPS Voltage"
+  },
+  "insights": false,
+"visible": false,
+  "uiComponent": "sensor",
+  "icon": "/assets/capability_icons/measure_voltage_eps.svg",
+  "units": {
+    "en": "V"
+  },
+  "decimals": 1,
+  "getable": true,
+  "setable": false
+}

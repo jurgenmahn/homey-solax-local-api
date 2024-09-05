@@ -1,0 +1,16 @@
+{
+  "type": "number",
+  "title": {
+    "en": "Radiator Temperature"
+  },
+  "insights": false,
+"visible": false,
+  "uiComponent": "sensor",
+  "icon": "/assets/capability_icons/measure_temperature_radiator.svg",
+  "units": {
+    "en": "°C"
+  },
+  "decimals": 1,
+  "getable": true,
+  "setable": false
+}

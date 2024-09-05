@@ -1,0 +1,16 @@
+{
+  "type": "number",
+  "title": {
+    "en": "Feed-in Energy"
+  },
+  "insights": false,
+"visible": false,
+  "uiComponent": "sensor",
+  "icon": "/assets/capability_icons/meter_power_feedin.svg",
+  "units": {
+    "en": "kWh"
+  },
+  "decimals": 2,
+  "getable": true,
+  "setable": false
+}

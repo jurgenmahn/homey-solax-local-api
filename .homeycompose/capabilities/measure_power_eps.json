@@ -1,0 +1,16 @@
+{
+  "type": "number",
+  "title": {
+    "en": "EPS Power"
+  },
+  "insights": false,
+"visible": false,
+  "uiComponent": "sensor",
+  "icon": "/assets/capability_icons/measure_power_eps.svg",
+  "units": {
+    "en": "W"
+  },
+  "decimals": 0,
+  "getable": true,
+  "setable": false
+}

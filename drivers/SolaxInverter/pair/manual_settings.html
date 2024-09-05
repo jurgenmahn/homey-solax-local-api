@@ -1,0 +1,81 @@
+<script type="text/javascript">
+    Homey.setTitle('Configure Solax Inverter');
+    
+    let settings = {
+      ip: '',
+      port: 80,
+      password: '',
+      inverterType: 'X3'
+    };
+    
+    function saveSettings() {
+      settings.ip = document.getElementById('ip').value;
+      settings.port = parseInt(document.getElementById('port').value, 10);
+      settings.password = document.getElementById('password').value;
+      settings.inverterType = document.getElementById('inverterType').value;
+      settings.requestType = document.getElementById('requestType').value;
+    
+      Homey.emit('manual_settings', settings)
+        .then(function(result) {
+          if (result) {
+            Homey.showView('list_devices');
+          } else {
+            Homey.alert('Failed to save settings');
+          }
+        })
+        .catch(function(error) {
+          Homey.alert(error.message || 'An error occurred');
+        });
+    }
+    </script>
+  <style>
+    label {
+      width: 150px;
+      display: inline-block;
+      padding: 10px;
+    }
+  </style>
+    
+    <form>
+      <fieldset>
+        <legend>Inverter Settings</legend>
+        <div class="form-group">
+          <label for="ip">IP Address</label>
+          <input type="text" id="ip" placeholder="192.168.1.100" required value="">
+        </div>
+        <div class="form-group">
+          <label for="port">Port</label>
+          <input type="number" id="port" placeholder="80" value="" required>
+        </div>
+        <div class="form-group"></div>
+          <label for="requestType">Request type</label>
+          <select id="requestType">
+            <option value="GET">GET</option>
+            <option value="POST">POST</option>
+          </select>
+        </div>        
+        <div class="form-group">
+          <label for="password">Password (if required)</label>
+          <input type="password" id="password" value="">
+        </div>
+        <div class="form-group">
+          <label for="inverterType">Inverter Type</label>
+          <select id="inverterType">
+            <option value="X1">X1</option>
+            <option value="X1Boost">X1 Boost</option>
+            <option value="X1HybridGen4">X1 Hybrid Gen4</option>
+            <option value="X1Mini">X1 Mini</option>
+            <option value="X1MiniV34">X1 Mini V34</option>
+            <option value="X1Smart">X1 Smart</option>
+            <option value="X3">X3</option>
+            <option value="X3HybridG4">X3 Hybrid G4</option>
+            <option value="X3MicProG2">X3 Mic Pro G2</option>
+            <option value="X3Ultra">X3 Ultra</option>
+            <option value="X3V34">X3 V34</option>
+            <option value="XHybrid">X Hybrid</option>
+          </select>
+        </div>
+        <button type="button" onclick="saveSettings()">Save and Continue</button>
+      </fieldset>
+    </form>
+
