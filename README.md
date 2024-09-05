@@ -30,7 +30,7 @@ Using a device like a Raspberry Pi
 Configuring the Raspberry Pi with two network connections:
 a) One connection to your home network
 b) Another Wi-Fi connection to the inverter's SSID
-Setting up NGINX (or a similar tool) to act as a reverse proxy
+Setting up NGINX to act as a reverse proxy
 
 This setup allows you to maintain access to the inverter's API while it's not directly exposed on your main network.
 
