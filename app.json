@@ -108,9 +108,9 @@
       "title": {
         "en": "Battery Mode"
       },
-      "getable": true,
+      "getable": false,
       "setable": false,
-      "uiComponent": "sensor",
+      "uiComponent": null,
       "icon": "/assets/capability_icons/battery_mode.svg"
     },
     "inverter_mode": {
@@ -118,9 +118,9 @@
       "title": {
         "en": "Inverter Mode"
       },
-      "getable": true,
+      "getable": false,
       "setable": false,
-      "uiComponent": "sensor",
+      "uiComponent": null,
       "icon": "/assets/capability_icons/inverter_mode.svg"
     },
     "measure_battery": {
@@ -130,7 +130,7 @@
       },
       "insights": false,
       "visible": false,
-      "uiComponent": "sensor",
+      "uiComponent": null,
       "icon": "/assets/capability_icons/measure_battery.svg",
       "units": {
         "en": "%"
@@ -138,7 +138,7 @@
       "decimals": 0,
       "min": 0,
       "max": 100,
-      "getable": true,
+      "getable": false,
       "setable": false
     },
     "measure_current": {
@@ -148,13 +148,13 @@
       },
       "insights": false,
       "visible": false,
-      "uiComponent": "sensor",
+      "uiComponent": null,
       "icon": "/assets/capability_icons/measure_current.svg",
       "units": {
         "en": "A"
       },
       "decimals": 1,
-      "getable": true,
+      "getable": false,
       "setable": false
     },
     "measure_current_eps": {
@@ -164,13 +164,13 @@
       },
       "insights": false,
       "visible": false,
-      "uiComponent": "sensor",
+      "uiComponent": null,
       "icon": "/assets/capability_icons/measure_current_eps.svg",
       "units": {
         "en": "A"
       },
       "decimals": 1,
-      "getable": true,
+      "getable": false,
       "setable": false
     },
     "measure_current_pv": {
@@ -180,13 +180,13 @@
       },
       "insights": false,
       "visible": false,
-      "uiComponent": "sensor",
+      "uiComponent": null,
       "icon": "/assets/capability_icons/measure_current_pv.svg",
       "units": {
         "en": "A"
       },
       "decimals": 1,
-      "getable": true,
+      "getable": false,
       "setable": false
     },
     "measure_frequency": {
@@ -196,13 +196,13 @@
       },
       "insights": false,
       "visible": false,
-      "uiComponent": "sensor",
+      "uiComponent": null,
       "icon": "/assets/capability_icons/measure_frequency.svg",
       "units": {
         "en": "Hz"
       },
       "decimals": 2,
-      "getable": true,
+      "getable": false,
       "setable": false
     },
     "measure_frequency_eps": {
@@ -212,13 +212,13 @@
       },
       "insights": false,
       "visible": false,
-      "uiComponent": "sensor",
+      "uiComponent": null,
       "icon": "/assets/capability_icons/measure_frequency_eps.svg",
       "units": {
         "en": "Hz"
       },
       "decimals": 2,
-      "getable": true,
+      "getable": false,
       "setable": false
     },
     "measure_power": {
@@ -228,13 +228,13 @@
       },
       "insights": false,
       "visible": false,
-      "uiComponent": "sensor",
+      "uiComponent": null,
       "icon": "/assets/capability_icons/measure_power.svg",
       "units": {
         "en": "W"
       },
       "decimals": 0,
-      "getable": true,
+      "getable": false,
       "setable": false
     },
     "measure_power_battery": {
@@ -244,13 +244,13 @@
       },
       "insights": false,
       "visible": false,
-      "uiComponent": "sensor",
+      "uiComponent": null,
       "icon": "/assets/capability_icons/measure_power_battery.svg",
       "units": {
         "en": "W"
       },
       "decimals": 0,
-      "getable": true,
+      "getable": false,
       "setable": false
     },
     "measure_power_eps": {
@@ -260,13 +260,13 @@
       },
       "insights": false,
       "visible": false,
-      "uiComponent": "sensor",
+      "uiComponent": null,
       "icon": "/assets/capability_icons/measure_power_eps.svg",
       "units": {
         "en": "W"
       },
       "decimals": 0,
-      "getable": true,
+      "getable": false,
       "setable": false
     },
     "measure_power_grid": {
@@ -276,13 +276,13 @@
       },
       "insights": false,
       "visible": false,
-      "uiComponent": "sensor",
+      "uiComponent": null,
       "icon": "/assets/capability_icons/measure_power_grid.svg",
       "units": {
         "en": "W"
       },
       "decimals": 0,
-      "getable": true,
+      "getable": false,
       "setable": false
     },
     "measure_power_pv": {
@@ -292,13 +292,13 @@
       },
       "insights": false,
       "visible": false,
-      "uiComponent": "sensor",
+      "uiComponent": null,
       "icon": "/assets/capability_icons/measure_power_pv.svg",
       "units": {
         "en": "W"
       },
       "decimals": 0,
-      "getable": true,
+      "getable": false,
       "setable": false
     },
     "measure_temperature": {
@@ -308,13 +308,13 @@
       },
       "insights": false,
       "visible": false,
-      "uiComponent": "sensor",
+      "uiComponent": null,
       "icon": "/assets/capability_icons/measure_temperature.svg",
       "units": {
         "en": "°C"
       },
       "decimals": 1,
-      "getable": true,
+      "getable": false,
       "setable": false
     },
     "measure_temperature_battery": {
@@ -324,13 +324,13 @@
       },
       "insights": false,
       "visible": false,
-      "uiComponent": "sensor",
+      "uiComponent": null,
       "icon": "/assets/capability_icons/measure_temperature_battery.svg",
       "units": {
         "en": "°C"
       },
       "decimals": 1,
-      "getable": true,
+      "getable": false,
       "setable": false
     },
     "measure_temperature_radiator": {
@@ -340,13 +340,13 @@
       },
       "insights": false,
       "visible": false,
-      "uiComponent": "sensor",
+      "uiComponent": null,
       "icon": "/assets/capability_icons/measure_temperature_radiator.svg",
       "units": {
         "en": "°C"
       },
       "decimals": 1,
-      "getable": true,
+      "getable": false,
       "setable": false
     },
     "measure_voltage": {
@@ -356,13 +356,13 @@
       },
       "insights": false,
       "visible": false,
-      "uiComponent": "sensor",
+      "uiComponent": null,
       "icon": "/assets/capability_icons/measure_voltage.svg",
       "units": {
         "en": "V"
       },
       "decimals": 1,
-      "getable": true,
+      "getable": false,
       "setable": false
     },
     "measure_voltage_eps": {
@@ -372,13 +372,13 @@
       },
       "insights": false,
       "visible": false,
-      "uiComponent": "sensor",
+      "uiComponent": null,
       "icon": "/assets/capability_icons/measure_voltage_eps.svg",
       "units": {
         "en": "V"
       },
       "decimals": 1,
-      "getable": true,
+      "getable": false,
       "setable": false
     },
     "measure_voltage_pv": {
@@ -388,13 +388,13 @@
       },
       "insights": false,
       "visible": false,
-      "uiComponent": "sensor",
+      "uiComponent": null,
       "icon": "/assets/capability_icons/measure_voltage_pv.svg",
       "units": {
         "en": "V"
       },
       "decimals": 1,
-      "getable": true,
+      "getable": false,
       "setable": false
     },
     "meter_power": {
@@ -404,13 +404,13 @@
       },
       "insights": false,
       "visible": false,
-      "uiComponent": "sensor",
+      "uiComponent": null,
       "icon": "/assets/capability_icons/meter_power.svg",
       "units": {
         "en": "kWh"
       },
       "decimals": 1,
-      "getable": true,
+      "getable": false,
       "setable": false
     },
     "meter_power_battery": {
@@ -420,13 +420,13 @@
       },
       "insights": false,
       "visible": false,
-      "uiComponent": "sensor",
+      "uiComponent": null,
       "icon": "/assets/capability_icons/meter_power_battery.svg",
       "units": {
         "en": "kWh"
       },
       "decimals": 1,
-      "getable": true,
+      "getable": false,
       "setable": false
     },
     "meter_power_consumption": {
@@ -436,13 +436,13 @@
       },
       "insights": false,
       "visible": false,
-      "uiComponent": "sensor",
+      "uiComponent": null,
       "icon": "/assets/capability_icons/meter_power_consumption.svg",
       "units": {
         "en": "kWh"
       },
       "decimals": 2,
-      "getable": true,
+      "getable": false,
       "setable": false
     },
     "meter_power_eps": {
@@ -452,13 +452,13 @@
       },
       "insights": false,
       "visible": false,
-      "uiComponent": "sensor",
+      "uiComponent": null,
       "icon": "/assets/capability_icons/meter_power_eps.svg",
       "units": {
         "en": "kWh"
       },
       "decimals": 1,
-      "getable": true,
+      "getable": false,
       "setable": false
     },
     "meter_power_feedin": {
@@ -468,13 +468,13 @@
       },
       "insights": false,
       "visible": false,
-      "uiComponent": "sensor",
+      "uiComponent": null,
       "icon": "/assets/capability_icons/meter_power_feedin.svg",
       "units": {
         "en": "kWh"
       },
       "decimals": 2,
-      "getable": true,
+      "getable": false,
       "setable": false
     },
     "meter_power_pv": {
@@ -484,13 +484,13 @@
       },
       "insights": false,
       "visible": false,
-      "uiComponent": "sensor",
+      "uiComponent": null,
       "icon": "/assets/capability_icons/meter_power_pv.svg",
       "units": {
         "en": "kWh"
       },
       "decimals": 1,
-      "getable": true,
+      "getable": false,
       "setable": false
     },
     "meter_power_yield": {
@@ -500,13 +500,13 @@
       },
       "insights": false,
       "visible": false,
-      "uiComponent": "sensor",
+      "uiComponent": null,
       "icon": "/assets/capability_icons/meter_power_yield.svg",
       "units": {
         "en": "kWh"
       },
       "decimals": 1,
-      "getable": true,
+      "getable": false,
       "setable": false
     }
   }

@@ -5,12 +5,12 @@
   },
   "insights": false,
 "visible": false,
-  "uiComponent": "sensor",
+  "uiComponent": null,
   "icon": "/assets/capability_icons/measure_voltage_eps.svg",
   "units": {
     "en": "V"
   },
   "decimals": 1,
-  "getable": true,
+  "getable": false,
   "setable": false
 }

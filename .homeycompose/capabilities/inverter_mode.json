@@ -3,8 +3,8 @@
   "title": {
     "en": "Inverter Mode"
   },
-  "getable": true,
+  "getable": false,
   "setable": false,
-  "uiComponent": "sensor",
+  "uiComponent": null,
   "icon": "/assets/capability_icons/inverter_mode.svg"
 }

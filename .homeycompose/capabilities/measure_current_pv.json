@@ -5,12 +5,12 @@
   },
   "insights": false,
 "visible": false,
-  "uiComponent": "sensor",
+  "uiComponent": null,
   "icon": "/assets/capability_icons/measure_current_pv.svg",
   "units": {
     "en": "A"
   },
   "decimals": 1,
-  "getable": true,
+  "getable": false,
   "setable": false
 }

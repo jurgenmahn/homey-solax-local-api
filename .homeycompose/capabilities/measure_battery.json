@@ -5,7 +5,7 @@
   },
   "insights": false,
 "visible": false,
-  "uiComponent": "sensor",
+  "uiComponent": null,
   "icon": "/assets/capability_icons/measure_battery.svg",
   "units": {
     "en": "%"
@@ -13,6 +13,6 @@
   "decimals": 0,
   "min": 0,
   "max": 100,
-  "getable": true,
+  "getable": false,
   "setable": false
 }

@@ -5,12 +5,12 @@
   },
   "insights": false,
 "visible": false,
-  "uiComponent": "sensor",
+  "uiComponent": null,
   "icon": "/assets/capability_icons/meter_power_feedin.svg",
   "units": {
     "en": "kWh"
   },
   "decimals": 2,
-  "getable": true,
+  "getable": false,
   "setable": false
 }

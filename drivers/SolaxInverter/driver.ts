@@ -88,11 +88,7 @@ class SolaxInverterDriver extends Driver {
         this.log('Device not found');
       } 
     });    
-
-
   }
-
-
 }
 
 module.exports = SolaxInverterDriver;

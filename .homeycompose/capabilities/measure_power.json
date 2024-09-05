@@ -5,12 +5,12 @@
   },
   "insights": false,
 "visible": false,
-  "uiComponent": "sensor",
+  "uiComponent": null,
   "icon": "/assets/capability_icons/measure_power.svg",
   "units": {
     "en": "W"
   },
   "decimals": 0,
-  "getable": true,
+  "getable": false,
   "setable": false
 }

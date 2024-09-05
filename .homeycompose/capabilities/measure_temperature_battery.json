@@ -5,12 +5,12 @@
   },
   "insights": false,
 "visible": false,
-  "uiComponent": "sensor",
+  "uiComponent": null,
   "icon": "/assets/capability_icons/measure_temperature_battery.svg",
   "units": {
     "en": "°C"
   },
   "decimals": 1,
-  "getable": true,
+  "getable": false,
   "setable": false
 }
