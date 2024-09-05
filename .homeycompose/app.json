@@ -1,10 +1,10 @@
 {
-  "id": "com.mahn.solax-local-wifi",
+  "id": "com.mahn.solax.local.api",
   "version": "1.0.0",
   "compatibility": ">=5.0.0",
   "sdk": 3,
   "name": {
-    "en": "Solax Local API"
+    "en": "Solax Inverter Local API"
   },
   "description": {
     "en": "Connect your Solax inverter with local API (WiFi or LAN module)"

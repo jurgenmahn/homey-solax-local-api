@@ -1,5 +1,5 @@
 {
-  "name": "com.mahn.solax-local-wifi",
+  "name": "com.mahn.solax.local.api",
   "version": "1.0.0",
   "main": "app.js",
   "scripts": {
