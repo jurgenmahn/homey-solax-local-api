@@ -1,0 +1,8 @@
+{
+  "1.0.0": {
+    "en": "Added Solax inverter support for users who use the local API over LAN or WiFi. "
+  },
+  "1.1.0": {
+    "en": "Added cumulative energy settings"
+  }
+}
