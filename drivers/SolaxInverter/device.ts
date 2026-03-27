@@ -142,6 +142,7 @@ class SolaxInverterDevice extends Device {
     // Map specific keys to Homey capability names and user-friendly names
     const capabilityMap: { [key: string]: [string, string] } = {
       // Voltage measurements
+      'ac_voltage': ['measure_voltage', 'AC Voltage'],
       'network_voltage': ['measure_voltage', 'Network Voltage'],
       'pv1_voltage': ['measure_voltage.pv1', 'PV1 Voltage'],
       'pv2_voltage': ['measure_voltage.pv2', 'PV2 Voltage'],
@@ -150,6 +151,7 @@ class SolaxInverterDevice extends Device {
       'eps_voltage': ['measure_voltage.eps', 'EPS Voltage'],
 
       // Current measurements
+      'ac_output_current': ['measure_current', 'AC Output Current'],
       'output_current': ['measure_current', 'Output Current'],
       'pv1_current': ['measure_current.pv1', 'PV1 Current'],
       'pv2_current': ['measure_current.pv2', 'PV2 Current'],
@@ -164,11 +166,13 @@ class SolaxInverterDevice extends Device {
       'pv3_power': ['measure_power.pv3', 'PV3 Power'],
       'battery_power': ['measure_power.battery', 'Battery Power'],
       'eps_power': ['measure_power.eps', 'EPS Power'],
+      'ac_output_power': ['measure_power', 'AC Output Power'],
       'exported_power': ['measure_power.exported', 'Exported Power'],
       'grid_power': ['measure_power.grid', 'Grid Power'],
       'power_now': ['measure_power.now', 'Current Power'],
 
       // Frequency measurements
+      'ac_frequency': ['measure_frequency', 'AC Frequency'],
       'grid_frequency': ['measure_frequency', 'Grid Frequency'],
       'eps_frequency': ['measure_frequency.eps', 'EPS Frequency'],
 
@@ -179,7 +183,11 @@ class SolaxInverterDevice extends Device {
 
       // Energy measurements (meter_power)
       'total_energy': ['meter_power.total', 'Total Energy'],
+      'total_generated_energy': ['meter_power.total', 'Total Generated Energy'],
       'today_energy': ['meter_power.today', 'Today\'s Energy'],
+      'today_generated_energy': ['meter_power.today', 'Today\'s Generated Energy'],
+      'total_export_energy': ['meter_power.feedin', 'Total Export Energy'],
+      'total_import_energy': ['meter_power.consumption', 'Total Import Energy'],
       'total_feed_in_energy': ['meter_power.feedin', 'Total Feed-in Energy'],
       'total_consumption': ['meter_power.consumption', 'Total Consumption'],
       'pv_energy_total': ['meter_power.pv.total', 'Total PV Energy'],

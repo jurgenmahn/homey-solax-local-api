@@ -117,7 +117,7 @@ export const INVERTER_MODELS = {
         data: {
           type: 'array',
           items: { type: 'number' },
-          minItems: 200,
+          minItems: 54,
           maxItems: 200,
         },
         information: {
